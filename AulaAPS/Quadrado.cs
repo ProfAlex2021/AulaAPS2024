@@ -20,5 +20,10 @@
         {
             return lado * 4;
         }
+
+        public override string ToString()
+        {
+            return $"Quadrado ({lado})";
+        }
     }
 }

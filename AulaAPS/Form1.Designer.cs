@@ -109,6 +109,7 @@
             this.cmbObjetos.Name = "cmbObjetos";
             this.cmbObjetos.Size = new System.Drawing.Size(121, 21);
             this.cmbObjetos.TabIndex = 9;
+            this.cmbObjetos.SelectedIndexChanged += new System.EventHandler(this.cmbObjetos_SelectedIndexChanged);
             // 
             // btnCriar
             // 
