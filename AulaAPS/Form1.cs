@@ -19,16 +19,51 @@ namespace AulaAPS
 
         private void cmbForma_SelectedIndexChanged(object sender, EventArgs e)
         {
-            SelecionarTriangulo();
+            switch (cmbForma.Text)
+            {
+                case "Quadrado":
+                    SelecionarQuadrado();
+                    break;
+                case "Triangulo":
+                    SelecionarTriangulo();
+                    break;
+                default:
+                    break;
+            }
+        }
+
+        private void SelecionarQuadrado()
+        {
+            ExibirBase(true);
+            ExibirAltura(false);
+            lblRaio.Visible = txtRaio.Visible = false;
+            cmbTriangulo.Visible = false;
+        }
+
+        private void ExibirBase(bool visivel)
+        {
+            lblBase.Visible = txtBase.Visible = visivel;
         }
 
         private void SelecionarTriangulo()
         {
-            cmbTriangulo.Visible = cmbForma.Text.Equals("Triângulo");
-            txtBase.Visible = cmbForma.Text.Equals("Triângulo");
-            txtAltura.Visible = cmbForma.Text.Equals("Triângulo");
-            lblBase.Visible = cmbForma.Text.Equals("Triângulo");
-            lblAltura.Visible = cmbForma.Text.Equals("Triângulo");
+            ExibirBase(true);
+            ExibirAltura(true);
+            lblRaio.Visible = txtRaio.Visible = false;
+            cmbTriangulo.Visible = true;
+        }
+
+        private void ExibirAltura(bool visivel)
+        {
+            lblAltura.Visible = txtAltura.Visible = visivel;
+        }
+
+        private void btnCriar_Click(object sender, EventArgs e)
+        {
+            if (cmbForma.Text.Equals("Quadrado"))
+            {
+
+            }
         }
     }
 }
