@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="AulaAPS.FormaGeometrica">
+    <Position X="10.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAIAAAAAAAAAA=</HashCode>
+      <FileName>FormaGeometrica.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AulaAPS.Quadrado">
+    <Position X="7" Y="3" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAEIAAABAAAAAA=</HashCode>
+      <FileName>Quadrado.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AulaAPS.Triangulo">
+    <Position X="11.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Triangulo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AulaAPS.TrianguloEquilatero">
+    <Position X="9.25" Y="4.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAIAAIAAAAQAA=</HashCode>
+      <FileName>TrianguloEquilatero.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AulaAPS.TrianguloIsosceles">
+    <Position X="11.5" Y="4.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAABAAAAAAAAAAAAABAAIAAIAAAAQAA=</HashCode>
+      <FileName>TrianguloIsosceles.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AulaAPS.TrianguloReto">
+    <Position X="13.75" Y="4.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAABAAAAAAAAAAAAABAAIAAIAAAAQAA=</HashCode>
+      <FileName>TrianguloReto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AulaAPS", "AulaAPS\AulaAPS.csproj", "{4AC4BF34-0B23-4600-8907-5EA1821EDB20}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4AC4BF34-0B23-4600-8907-5EA1821EDB20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AC4BF34-0B23-4600-8907-5EA1821EDB20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AC4BF34-0B23-4600-8907-5EA1821EDB20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AC4BF34-0B23-4600-8907-5EA1821EDB20}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C7F990EE-CF9F-48E9-923C-A90473B1404A}
+	EndGlobalSection
+EndGlobal
